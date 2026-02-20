@@ -39,7 +39,7 @@ Enterprise Systems (DB / APIs / Logs)
 - Prevent LLM from directly accessing enterprise systems
 - Enforce deterministic tool execution
 - Provide reliable HTTP-compliant responses
-- Protect downstream systems from overload
+- Protect downstream systems failures
 - Maintain observability across agent executions
 
 ---
@@ -73,7 +73,7 @@ Defines agent execution flow using LangGraph.
 - Prevent uncontrolled LLM behavior
 - Ensure deterministic workflow transitions
 
-Separates: HTTP concerns from AI reasoning logic 
+Separates HTTP concerns from AI reasoning logic 
 
 ---
 
