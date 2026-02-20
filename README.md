@@ -55,10 +55,10 @@ Acts as a stateless HTTP gateway.
 - Accept client requests (`POST /api/agent/run`)
 - Enforce `Authorization: Bearer <token>`
 - Validate request payload
-- Generate unique `requestId` for tracing
-- Handle downstream failures
 - Return structured JSON responses
+- Generate unique `requestId` for tracing
 - Structured logging
+- Handle downstream failures
 
 ---
 
